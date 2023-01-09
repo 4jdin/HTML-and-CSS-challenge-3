@@ -30,7 +30,7 @@ img {
     border-radius: 10px;
     top: 21%;
     width: 300px;
-    height: calc(100% - 622px);
+    height: 300px;
     z-index: 999;
     opacity: 0;
     transition: opacity 0.3s ease-in-out;
