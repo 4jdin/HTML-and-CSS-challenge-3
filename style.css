@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding-left: 280px;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0d1a2d;
+    font-family: "Outfit", sans-serif;
+}
+
+img {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    border-color: hsl(215, 32%, 27%);
+}
+
+.box .img-container div{
+    position: absolute;
+    background-color: hsl(178, 100%, 50%, 60%);
+    border-radius: 10px;
+    top: 21%;
+    width: 300px;
+    height: calc(100% - 622px);
+    z-index: 999;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.box .img-container div:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.box .img-container div img {
+    position: absolute;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%, -50%);
+    width: 50px;
+    height: 50px;
+}
+
+.box {
+    width: 335px;
+    height: 580px;
+    font-style: none;
+    background-size: cover;
+    background-position: center;
+    background-color: #132740;
+    display: flex;
+    align-items: top;
+    justify-content: center;
+    padding-top: 20px;
+    border-radius: 10px;
+    border-color: hsl(215, 32%, 27%);
+}
+
+.nft {
+    position: relative;
+    top: 50%;
+    left: 50;
+    transform: translate(-200%, 370%);
+    color: white;
+    font-size: 1.2rem;
+    font-family: 'Outfit', sans-serif;
+    cursor: pointer;
+    background: none;
+    border: none;
+    font-weight: 600;
+  }
+  
+.nft:hover {
+    color: hsl(178, 100%, 50%);
+  }
+
+h2 {
+    position: relative;
+    top: 50%;
+    left: 50;
+    transform: translate(-115%, 230%);
+    color: #677b9c;
+    font-size: 1.1rem;
+    font-weight: normal;
+    font-family: 'Outfit', sans-serif;   
+    font-weight: 300;
+}
+
+.icon {
+    position: absolute;
+    top: 50%;
+    left: 50;
+    transform: translate(-980%, 540%);
+}
+
+h3 {
+    position: absolute;
+    top: 50%;
+    left: 50;
+    transform: translate(-400%, 860%);
+    color: hsl(178, 100%, 50%);
+    font-size: 1rem;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+}
+
+.icon-2 {
+    position: absolute;
+    top: 50%;
+    left: 50;
+    transform: translate(-400%, 545%);
+}
+
+h4 {
+    position: absolute;
+    top: 50%;
+    left: 50;
+    transform: translate(-140%, 865%);
+    color: #677b9c;
+    font-size: 1rem;
+    font-weight: 100;
+    font-family: 'Outfit', sans-serif; 
+    font-weight: 400;
+}
+
+hr {
+  position: absolute;
+  left: 50%;
+  top: 49.5%;
+  transform: translate(-50%, 11000%);
+  width: 300px;
+  border: 0.5px groove #7e9bc3;
+}
+
+.user img {
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50;
+    transform: translate(-1030%, 780%);
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
+.user h5{
+    position: absolute;
+    top: 50%;
+    left: 50;
+    transform: translate(-395%, 1500%);
+    font-family: 'Outfit', sans-serif;
+    color: #677b9c;
+    font-weight: 400;
+}
+
+.user button {
+    position: absolute;
+    top: 50%;
+    left: 50;
+    transform: translate(5%, -50%);
+    font-family: 'Outfit', sans-serif;
+    color: white;
+    cursor: pointer;
+    background: none;
+    border: none;
+    font-weight: 400;
+}
+
+.user button:hover {
+    color: hsl(178, 100%, 50%);
+}
