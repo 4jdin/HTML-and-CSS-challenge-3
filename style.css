@@ -136,7 +136,7 @@ hr {
   position: absolute;
   left: 50%;
   top: 49.5%;
-  transform: translate(-50%, 11000%);
+  transform: translate(-88%, 11000%);
   width: 300px;
   border: 0.5px groove #7e9bc3;
 }
@@ -177,4 +177,15 @@ hr {
 
 .user button:hover {
     color: hsl(178, 100%, 50%);
+}
+
+.attribution { 
+    color: white;
+    padding-top: 2rem;
+    font-size: 11px; 
+    transform: translate(-245%, 700%);
+}
+
+.attribution a { 
+    color: red; 
 }
