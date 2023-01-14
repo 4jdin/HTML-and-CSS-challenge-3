@@ -7,7 +7,7 @@
 }
 
 body {
-    padding-left: 280px;
+    padding-left: 35rem;
     min-height: 100vh;
     display: flex;
     justify-content: center;
@@ -136,7 +136,7 @@ hr {
   position: absolute;
   left: 50%;
   top: 49.5%;
-  transform: translate(-88%, 11000%);
+  transform: translate(-41%, 11000%);
   width: 300px;
   border: 0.5px groove #7e9bc3;
 }
@@ -183,7 +183,7 @@ hr {
     color: white;
     padding-top: 2rem;
     font-size: 11px; 
-    transform: translate(-245%, 700%);
+    transform: translate(-242%, 700%);
 }
 
 .attribution a { 
